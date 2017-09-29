@@ -11,14 +11,14 @@
 					<div class="col-md-12">
 						<div class="panel-kandidat">
 							<div class="panel-kandidat__header">
-								<div class="col-md-2">
+								<div class="col-md-2 col-sm-12 col-xs-12">
 									<div class="row">
 										<div class="image">
 											<img src="http://banyumasmemilih.com/assets/image/kandidat/juli.jpg" alt="">
 										</div>
 									</div>
 								</div>
-								<div class="col-md-10">
+								<div class="col-md-10 col-sm-12 col-xs-12">
 									<div class="row">
 										<div class="pull-right">
 											<div class="name">

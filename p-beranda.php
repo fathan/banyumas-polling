@@ -44,7 +44,7 @@
 						</div>
 					</div>
 					<?php for ($i=0; $i < 12; $i++) { ?>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="user-lists">
 								<div class="user-lists__image">
 									<img src="http://banyumasmemilih.com/assets/image/kandidat/mardjoko_Bupati_banyumas.jpg" alt="">

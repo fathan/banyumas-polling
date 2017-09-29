@@ -1,36 +1,35 @@
 @media screen and (max-width: 550px) {
-	.slide-text>h1 {
-	  font-size: 18px;
+	.kandidat-detail .panel-kandidat__body .box-profile__list .key{
+		font-size: 12px;
+	}
+	.kandidat-detail .panel-kandidat__body .box-profile__list .value{
+		font-size: 12px;
 	}
 
-	.about-us{
-		.about-us__our-team{
-			.list-team{
-				.box-user{
-					.image{
-						width: 180px;
-						height: 180px;
-					}
-				}
-			}
-		}
+	.hasil-polling__lists .pull-left{
+		float: none!important;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
 	}
 
-	.modal-subscriber .modal-dialog {
-    width: 95%;
+	.hasil-polling__lists .pull-right{
+		float: none!important;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	.hasil-polling__lists .btn-danger{
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+
+	.hasil-polling-title {
+    font-size: 16px;
   }
 
-	.modal-subscriber .newsletter{
-		background: #00a25d;
-		padding: 3em 3em 3em 3em;
-
-		.form-control{
-			font-size: 12px;
-		}
-	}
-
-	.sorting-system-plan .form-control {
-	  margin: 0;
-	  font-size: 10px;
-	}
+  .total--suara{
+  	font-size: 16px;
+  }
 }

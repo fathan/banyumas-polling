@@ -2,82 +2,14 @@
 	.navbar-default{
 		.navbar-brand{
 			img {
-			  margin-top: 0px;
-			  width: 100px;
+				margin-top: -10px;
+				width: 80px;
 			}
 		}
 
 		.navbar-nav>li>a {
 		  font-size: 11px;
 		  padding: 14px 10px;
-		}
-	}
-
-	.intermezo{
-		.intermezo__title {
-		  text-align: center;
-		  margin-bottom: 2em;
-		}
-	}
-
-	.sub-header{
-		.sub-header__content{
-			.title {
-			  font-size: 2.5em;
-			}
-		}
-	}
-
-	.registration{
-		.wizard-header{
-			.wizard-title {
-			  font-size: 20px;
-			}
-		}
-
-		.stepTitle {
-		  font-size: 10px;
-		}
-	}
-
-	.bop-detail{
-		.panel-default{
-			.panel-heading{
-				.bop-detail__title-head {
-				  font-size: 1.3em;
-				}
-
-				.bop-detail__speaker{
-					font-size: 1em;
-				}
-			}
-
-			.panel-body{
-				.bop-detail__aside-top{
-					.title{
-						font-size: 1.2em;
-					}
-
-					.condition{
-						font-size: 1.2em;
-					}
-				}
-
-				.bop-detail__title-content{
-					span{
-						font-size: 1.2em;
-					}
-				}
-			}
-		}
-	}
-
-	.contact-us{
-		.contact-us__address {
-		  display: block;
-		  width: 50%;
-		  float: left;
-		  margin-bottom: 30px;
 		}
 	}
 }
