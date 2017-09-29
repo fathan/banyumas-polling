@@ -1,0 +1,67 @@
+@media screen and (max-width: 650px) {
+	.slide-text>h1 {
+	  font-size: 20px;
+	}
+
+	.about-us{
+		.about-us__desc-first{
+			.title {
+			  font-size: 20px;
+			}
+		}
+	}
+
+	.video-profile{
+		.video-profile__title {
+		  font-size: 20px;
+		}
+
+		.video-profile__description{
+			font-size: 14px;
+		}
+	}
+
+	.carousel-testimonial{
+		.carousel-testimonial__name{
+			font-size: 18px;
+		}
+
+		blockquote{
+			font-size: 14px;
+		}
+	}
+
+	.intermezo{
+		.intermezo__title {
+		  font-size: 16px;
+		}
+	}
+
+	.sub-header{
+		.sub-header__content{
+			.title {
+			  font-size: 2em;
+			}
+
+			.description{
+				font-size: 16px;
+			}
+		}
+	}
+
+	.bop-detail{
+		.panel-default{
+			.panel-body{
+				.bop-detail__content{
+					p{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+
+	.modal-subscriber .newsletter .newsletter__title {
+	  font-size: 16px;
+	}
+}

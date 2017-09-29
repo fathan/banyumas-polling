@@ -1,0 +1,15 @@
+@media screen and (max-width: 850px) {
+	.modal-subscriber{
+		.modal-dialog {
+    	width: 75%;
+    }
+	}
+
+	.modal-subscriber .newsletter .newsletter__title{
+		font-size: 20px;
+	}
+
+	.modal-subscriber .newsletter .newsletter__description{
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,34 @@
+@media screen and (max-width: 767px){
+	.navbar--no-color{
+		background: #FFF;
+	}
+
+	.navbar-default{
+		.navbar-nav>li>a {
+			font-size: 14px;
+      color: #000;
+    }
+
+    .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+			color: #000;
+			background-color: transparent;
+		}
+
+		.navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+      color: #fff;
+    }
+	}
+
+	.modal-subscriber{
+		.modal-dialog {
+		  width: 97%;
+		  margin-top: 8em;
+		}
+	}
+
+	.intermezo{
+		.btn-info{
+			margin-left: 0;
+		}
+	}
+}

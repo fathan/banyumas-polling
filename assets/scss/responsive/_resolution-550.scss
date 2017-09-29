@@ -1,0 +1,36 @@
+@media screen and (max-width: 550px) {
+	.slide-text>h1 {
+	  font-size: 18px;
+	}
+
+	.about-us{
+		.about-us__our-team{
+			.list-team{
+				.box-user{
+					.image{
+						width: 180px;
+						height: 180px;
+					}
+				}
+			}
+		}
+	}
+
+	.modal-subscriber .modal-dialog {
+    width: 95%;
+  }
+
+	.modal-subscriber .newsletter{
+		background: #00a25d;
+		padding: 3em 3em 3em 3em;
+
+		.form-control{
+			font-size: 12px;
+		}
+	}
+
+	.sorting-system-plan .form-control {
+	  margin: 0;
+	  font-size: 10px;
+	}
+}
