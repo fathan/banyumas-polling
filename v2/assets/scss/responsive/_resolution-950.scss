@@ -1,0 +1,44 @@
+@media screen and (max-width: 950px) {
+	.navbar-default{
+		.navbar-brand{
+			img {
+				margin-top: -10px;
+				width: 80px;
+			}
+		}
+
+		.navbar-nav>li>a {
+		  font-size: 11px;
+		  padding: 14px 10px;
+		}
+	}
+
+	.page-detail__aside-information{
+		width: 100%;
+		float: none;
+	}
+
+	.page-detail__body-information{
+		width: 100%;
+		float: none;
+		margin-top: 22em;
+		overflow-y: hidden;
+		display: table;
+	}
+
+	.page-detail__body-information .box-list{
+		margin-bottom: 5em;
+	}
+
+	.page-detail__body-information .box-list .list-candidates{
+		width: 48%;
+	}
+
+	.page-detail__body-information .box-list .list-candidates .image{
+		height: 450px;
+	}
+
+	.page-detail__body-information .box-bottom .act-to-polling-result{
+		width: 100%;
+	}
+}

@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+	.navbar-default .navbar-nav>li>a{
+		font-size: 12px;
+	}
+
+	.block-home{
+		padding-top: 10em;
+	}
+
+	.page-detail__body-information .box-list .list-candidates .image{
+		height: 270px;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate .box-left .image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .page-detail__body-information .box-list-chart .list-candidate .box-right .total{
+  	font-size: 10px;
+  }
+
+  .page-detail__body-information .box-list-chart .list-candidate .box-right .profile{
+  	font-size: 10px;
+  }
+}

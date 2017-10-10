@@ -1,0 +1,65 @@
+@media screen and (max-width: 850px) {
+	.title--top span{
+		font-size: 16px;
+	}
+
+	.user-lists__title{
+		font-size: 14px;
+	}
+
+	.footer__title{
+		font-size: 18px;
+	}
+
+	.footer__description{
+		font-size: 12px;
+	}
+
+	.kandidat-detail .panel-kandidat__header .image{
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.kandidat-detail .panel-kandidat__header .pull-right{
+		float: none!important;
+		text-align: center;
+
+		.name{
+			font-size: 18px;
+		}
+
+		.position{
+			font-size: 14px;
+		}
+	}
+
+	.hasil-polling__lists .name{
+		font-size: 16px;
+	}
+
+	.hasil-polling__lists .avatar{
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.block-home .menu-central__list-wrapper a.list-menu{
+		width: 230px;
+		height: 200px;
+	}
+
+	.block-home .menu-central__list-wrapper a.list-menu .image{
+		width: 7em;
+	}
+
+	.block-home .menu-central__list-wrapper a.list-menu .title span{
+		font-size: 15px;
+	}
+
+	.page-detail__aside-information .image{
+		margin-top: 0;
+	}
+
+	.page-detail__aside-information .image-2{
+		margin-top: 0;
+	}
+}

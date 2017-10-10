@@ -1,0 +1,105 @@
+@media screen and (max-width: 767px){
+	.navbar--no-color{
+		background: #FFF;
+	}
+
+	.navbar-default{
+		.navbar-nav>li>a {
+			font-size: 14px;
+      color: #FFFFFF;
+    }
+
+    .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+			color: #FFFFFF;
+			background-color: transparent;
+		}
+
+		.navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+      color: #fff;
+    }
+	}
+
+	.page-detail__aside-information {
+	  height: 30em !important;
+	}
+	
+	.page-detail__body-information .box-list {
+		margin-bottom: 6em;
+	}
+
+	.page-detail__body-information .box-list .list-candidates .image{
+		height: 400px;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate {
+	  width: 100%;
+	  height: auto;
+	  display: inline-block;
+	  margin-bottom: 10px;
+	  background: #fff;
+	  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+	  border-radius: 5px;
+	  -webkit-transition: background-color 1s ease;
+	  -moz-transition: background-color 1s ease;
+	  -o-transition: background-color 1s ease;
+	  transition: background-color 1s ease;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate .box-left {
+	  float: none;
+	  width: 100%;
+	  padding: 10px;
+	  padding-right: 10px;
+	  padding-right: 20px;
+	  display: inline-block;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate .box-left .image {
+	  margin: auto;
+	  margin-bottom: 10px;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate .box-left .information {
+	  text-align: center;
+	}
+
+	.page-detail__body-information .box-list-chart .list-candidate .box-right {
+	  float: none;
+	  width: 100%;
+	  height: 100%;
+	  background: #5db75c;
+	  -webkit-transition: background-color 1s ease;
+	  -moz-transition: background-color 1s ease;
+	  -o-transition: background-color 1s ease;
+	  transition: background-color 1s ease;
+	  padding: 10px;
+	  border-top-right-radius: 0px;
+	  border-bottom-left-radius: 5px;
+	  border-bottom-right-radius: 5px;
+	  display: inline-block;
+	  margin-bottom: -5px;
+	}
+	
+	.page-detail__body-information .box-list .kandidat-detail .panel-kandidat {
+	  width: 96.5%;
+	  display: block;
+	}
+
+	.page-detail__body-information .box-list .kandidat-detail .panel-kandidat__header{
+		padding: 30px 25px;
+	}
+
+	.page-detail__body-information .box-list .kandidat-detail .panel-kandidat__body .box-profile__list .key,
+	.page-detail__body-information .box-list .kandidat-detail .panel-kandidat__body .box-profile__list .value {
+    float: left;
+    width: 100%;
+  }
+
+  .page-detail__body-information .box-list .kandidat-detail .panel-kandidat__header .name{
+  	font-size: 16px;
+  }
+
+  .page-detail__body-information .box-list .kandidat-detail .panel-kandidat__header .position{
+  	font-size: 12px;
+  }
+}

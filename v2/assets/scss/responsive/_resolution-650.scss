@@ -1,0 +1,27 @@
+@media screen and (max-width: 650px) {
+	.page-detail__aside-information {
+	  height: 25em !important;
+	}
+
+	.block-home {
+	  padding-top: 3em;
+	}
+
+	.block-home .menu-central__list-wrapper a.list-menu{
+		float: none;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
+	.block-home .menu-central__corpyright p{
+		font-size: 11px;
+	}
+
+	.page-detail__body-information .box-list .list-candidates{
+		width: 97%;
+	}
+
+	.page-detail__body-information .box-list .list-candidates .image {
+	  height: 600px;
+	}
+}

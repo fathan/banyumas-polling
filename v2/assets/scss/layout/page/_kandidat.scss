@@ -1,0 +1,391 @@
+.page-detail{
+	width: 100%;
+	display: block;
+
+	&__aside-information{
+		width: 35%;
+		height: 100%;
+		float: left;
+		display: block;
+		background: #FFFFFF;
+		position: relative;
+
+		.menu-back{
+			display: inline-block;
+      padding: 25px;
+      width: 100%;
+      text-align: center;
+
+			a.icon{
+				font-size: 20px;
+				color: #000000;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+
+		.image{
+			width: 100%;
+			display: table;
+			margin: auto;
+			margin-top: 8em;
+
+			img{
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.image-2{
+			width: 100%;
+			display: table;
+			margin: auto;
+			margin-top: 8em;
+
+			img{
+				display: block;
+        width: 70%;
+        height: auto;
+        margin: auto;
+			}
+		}
+	}
+
+	&__body-information{
+		width: 65%;
+		height: 100%;
+		float: right;
+		display: block;
+		background: #2b3044;
+		padding: 15px;
+		padding-right: 0px;
+		overflow-y: scroll;
+
+		.title-top{
+			width: 100%;
+			display: block;
+			text-align: center;
+			padding: 0px;
+
+			span{
+				color: #FFFFFF;
+				font-size: 20px;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+			}
+		}
+
+		.box-list{
+			width: 100%;
+			display: inline-block;
+			margin-top: 30px;
+			margin-bottom: 4em;
+
+			.list-candidates{
+				width: 31.333%;
+				display: inline-block;
+				margin-right: 10px;
+				margin-bottom: 15px;
+				position: relative;
+
+				&:last-child{
+					margin: 0;
+				}
+
+				.image{
+					width: 100%;
+					height: 300px;
+					overflow: hidden;
+					background: #333333;
+					position: relative;
+					border-radius: 7px;
+
+					img{
+						display: block;
+						width: 100%;
+						height: auto;
+					}
+
+					.sec-top{
+						position: absolute;
+						top: 0;
+						right: 0;
+						padding: 15px;
+
+						a{
+							margin-left: 5px;
+						}
+					}
+
+					.sec-bottom{
+						width: 100%;
+						display: inline-block;
+						position: absolute;
+						bottom: 0;
+						padding: 15px;
+						background: #000;
+		        background: -moz-linear-gradient(top,#000 0,#666 0,#595959 0,rgba(89, 89, 89, 0) 63%,rgba(0,0,0,.82) 100%);
+		        background: -webkit-gradient(left top,left bottom,color-stop(0,#000),color-stop(0,#666),color-stop(0,#595959),color-stop(63%,rgba(0,0,0,.89)),color-stop(100%,rgba(0,0,0,.82)));
+		        background: -webkit-linear-gradient(top,#000 0,#666 0,rgba(89, 89, 89, 0) 0,rgba(0, 0, 0, 0.99) 63%,rgba(0,0,0,.82) 100%);
+		        background: -o-linear-gradient(top,#000 0,#666 0,#595959 0,rgba(89, 89, 89, 0) 63%,rgba(0,0,0,.82) 100%);
+		        background: -ms-linear-gradient(top,#000 0,#666 0,#595959 0,rgba(89, 89, 89, 0) 63%,rgba(0,0,0,.82) 100%);
+						
+						.name{
+							color: #FFFFFF;
+							font-size: 14px;
+						}
+					}
+				}
+			}
+
+			.kandidat-detail{
+			  width: 100%;
+			  display: block;
+
+			  .panel-kandidat{
+			    width: 98.5%;
+			    display: block;
+
+			    &__header{
+			      width: 100%;
+			      display: inline-block;
+			      background: #323a56;
+			      padding: 15px 25px;
+
+			      .image{
+			        width: 100px;
+			        height: 100px;
+			        overflow: hidden;
+
+			        img{
+			          display: block;
+			          width: 100%;
+			          height: auto;
+			        }
+			      }
+
+			      .name{
+			        font-size: 25px;
+			        color: #FFFFFF;
+			        margin-bottom: 10px;
+			        font-weight: bold;
+			        text-transform: capitalize;
+			      }
+
+			      .position{
+			        font-size: 16px;
+			        color: #FFFFFF;
+			        text-transform: normal;
+			      }
+			    }
+
+			    &__body{
+			      width: 100%;
+			      display: inline-block;
+			      background: #FFFFFF;
+			      padding: 30px 15px;
+
+			      .description{
+			        width: 100%;
+			        display: block;
+			        margin-top: 17px;
+			        margin-bottom: 30px;
+
+			        .title{
+			          font-size: 16px;
+			          font-weight: bold;
+			          color: #eb3606;
+			          margin-bottom: 20px;
+			          border-bottom: 1px solid #CCCCCC;
+			          padding-bottom: 10px;
+			        }
+
+			        p{
+			          line-height: 30px;
+			          color: #c1c1c1;
+			        }
+			      }
+
+			      .box-profile{
+			        border: 1px solid #CCCCCC;
+			        padding: 15px;
+
+			        &__title{
+			          font-size: 16px;
+			          font-weight: bold;
+			          color: #000000;
+			          margin-bottom: 20px;
+			          border-bottom: 1px solid #CCCCCC;
+			          padding-bottom: 10px;
+			        }
+
+			        &__list{
+			          width: 100%;
+			          display: inline-block;
+			          margin-bottom: 10px;
+
+			          .key{
+			            float: left;
+			            font-size: 14px;
+			            color: #555555;
+			            font-weight: bold;
+			          }
+			  
+			          .value{
+			            float: right;
+			            font-size: 14px;
+			            color: #c1c1c1;
+			          }
+			        }
+			      }
+			    }
+			  }
+			}
+		}
+
+		.box-list-chart{
+			width: 98%;
+			display: inline-block;
+
+			.list-candidate{
+				width: 100%;
+				height: 150px;
+				display: inline-block;
+				margin-bottom: 10px;
+				background: #FFFFFF;
+				box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+				border-radius: 5px;
+				-webkit-transition: background-color 1s ease;
+        -moz-transition: background-color 1s ease;
+        -o-transition: background-color 1s ease;
+        transition: background-color 1s ease;
+
+				&:hover{
+					.box-left{
+						background: #F5F5F5;
+						-webkit-transition: background-color 1s ease;
+		        -moz-transition: background-color 1s ease;
+		        -o-transition: background-color 1s ease;
+		        transition: background-color 1s ease;
+					}
+
+					.box-right{
+						background: #298228;
+						-webkit-transition: background-color 1s ease;
+		        -moz-transition: background-color 1s ease;
+		        -o-transition: background-color 1s ease;
+		        transition: background-color 1s ease;
+					}
+				}
+				
+				.box-left{
+					float: left;
+					width: 75%;
+					padding: 10px;
+					padding-right: 20px;
+
+					.image{
+						width: 130px;
+						height: 130px;
+						overflow: hidden;
+						border: 3px solid #ececec;
+
+						img{
+							width: 100%;
+							height: auto;
+							display: block;
+						}
+					}
+
+					.information{
+						width: 100%;
+						display: inline-block;
+
+						.name{
+							display: inline-block;
+							width: 100%;
+							font-size: 20px;
+							font-weight: bold;
+							font-style: italic;
+							text-transform: uppercase;
+							margin-bottom: 7px;
+						}
+
+						.position{
+							display: inline-block;
+							width: 100%;
+							font-size: 16px;
+							margin-bottom: 20px;
+						}
+					}
+				}
+
+				.box-right{
+					float: right;
+					width: 25%;
+					height: 100%;
+					background: #5db75c;
+					-webkit-transition: background-color 1s ease;
+	        -moz-transition: background-color 1s ease;
+	        -o-transition: background-color 1s ease;
+	        transition: background-color 1s ease;
+					padding: 10px;
+					border-top-right-radius: 5px;
+					border-bottom-right-radius: 5px;
+
+					.total{
+						background: #469445;
+						border: 1px solid #378435;
+		        padding: 10px 30px;
+		        border-radius: 3px;
+		        color: #fff;
+		        margin: auto;
+		        display: table;
+		        margin-top: 1.9em;
+		        font-size: 14px;
+		        margin-bottom: 10px;
+		        width: 100%;
+		        text-align: center;
+		        text-transform: uppercase;
+					}
+
+					.profile{
+						background: #FFFFFF;
+						border: 1px solid #378435;
+		        padding: 10px 30px;
+		        border-radius: 3px;
+		        color: #469445;
+		        margin: auto;
+		        display: table;
+		        font-size: 14px;
+		        width: 100%;
+		        text-align: center;
+					}
+				}
+			}
+		}
+
+		.box-bottom{
+			display: block;
+			width: 	100%;
+
+			.act-to-polling-result{
+				position: fixed;
+				bottom: 0;
+				right: 0;
+				width: 65%;
+				background: #18963b;
+				padding: 20px 0px;
+				text-align: center;
+
+				span{
+					text-transform: uppercase;
+					font-size: 14px;
+					color: #FFFFFF;
+					letter-spacing: 3px;
+				}
+			}
+		}
+	}
+}
